@@ -32,3 +32,10 @@ task :clean do
     end
   end
 end
+
+desc 'Create png preview.'
+task png: [:tex] do
+  Dir.chdir build do
+    system 'convert', '-density', '300', "#{build_name}.pdf", "#{build_name}.png"
+  end
+end
