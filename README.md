@@ -23,7 +23,14 @@ include the tex files with `\input`:
 
   - `_packages.tex` should be included in your preamble.
   - `_nonlocal_spin_valve.tex` should be included
-    wherever you want to include the picture.
+    wherever you want to include the picture as follows:
+
+````latex
+\input{_head}
+\begin{tikzpicture}
+  \input{_nonlocal_spin_valve}
+\end{tikzpicture}
+````
 
 ## Building
 

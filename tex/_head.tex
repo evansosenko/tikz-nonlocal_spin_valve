@@ -1,0 +1,12 @@
+% Libraries.
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.markings}
+
+% Layers.
+\pgfdeclarelayer{semiconductor}
+\pgfdeclarelayer{contacts}
+\pgfsetlayers{semiconductor,contacts,main}
+
+% Styles.
+\tikzstyle{semiconductor}=[fill=gray]
+\tikzstyle{contact}=[fill=lightgray,opacity=0.5]
