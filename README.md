@@ -2,6 +2,8 @@
 
 **Copyright 2014 Evan Sosenko**
 
+![nonlocal spin valve](https://raw.github.com/razor-x/tkiz-nonlocal_spin_valve/master/preview.png)
+
 ## Requirements
 
 - `xelatex` and [`la­texmk`](http://www.ctan.org/pkg/latexmk/)
