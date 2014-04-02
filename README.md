@@ -22,7 +22,7 @@ Once the files are available under your project root,
 include the tex files with `\input`:
 
   - `_packages.tex` should be included in your preamble.
-  - `_nonlocal_spin_valve.tex` should be included
+  - `_head` and `_nonlocal_spin_valve.tex` should be included
     wherever you want to include the picture as follows:
 
 ````latex
