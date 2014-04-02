@@ -2,7 +2,7 @@
 
 **Copyright 2014 Evan Sosenko**
 
-![nonlocal spin valve](https://raw.github.com/razor-x/tkiz-nonlocal_spin_valve/master/preview.png)
+![nonlocal spin valve](https://raw.github.com/razor-x/tikz-nonlocal_spin_valve/master/preview.png)
 
 ## Requirements
 
