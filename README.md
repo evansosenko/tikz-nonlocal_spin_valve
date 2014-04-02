@@ -1,7 +1,5 @@
 # Nonlocal Spin Valve in TikZ
 
-**Copyright 2014 Evan Sosenko**
-
 ![nonlocal spin valve](https://raw.github.com/razor-x/tikz-nonlocal_spin_valve/master/preview.png)
 
 ## Requirements
@@ -77,11 +75,11 @@ $ latexmk -xelatex nonlocal_spin_valve.tex
 
 ## License
 
-This work is Copyright 2014 Evan Sosenko.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Nonlocal Spin Valve in TikZ</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/razor-x/tikz-nonlocal_spin_valve" property="cc:attributionName" rel="cc:attributionURL">Evan Sosenko</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 ## Warranty
 
-This software is provided "as is" and without any express or
+This work is provided "as is" and without any express or
 implied warranties, including, without limitation, the implied
 warranties of merchantibility and fitness for a particular
 purpose.
