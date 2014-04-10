@@ -6,8 +6,7 @@
 
 ## Requirements
 
-- `xelatex` and [`la­texmk`](http://www.ctan.org/pkg/latexmk/)
-  packaged with a modern LaTeX distribution,
+- A modern LaTeX distribution,
   e.g., [TeX Live](http://www.tug.org/texlive/).
 - [Ruby 2](https://www.ruby-lang.org/)
   with [Bundler](http://bundler.io/) (optional).
@@ -66,6 +65,9 @@ $ guard
 
 which will automatically rebuild on changes.
 
+By default, this method will use
+[`la­texmk`](http://www.ctan.org/pkg/latexmk/) with `xelatex`.
+
 ### Without Ruby
 
 To build the tex source,
@@ -74,6 +76,9 @@ To build the tex source,
 $ cd tex
 $ latexmk -xelatex nonlocal_spin_valve.tex
 ````
+
+You can substitute `-xelatex` with `-pdf` to use `pdfLaTeX`.
+Alternatively, compile `nonlocal_spin_valve.tex` using your preferred method.
 
 ## License
 
