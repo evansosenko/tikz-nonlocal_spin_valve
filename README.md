@@ -1,6 +1,6 @@
 # Nonlocal Spin Valve in TikZ
 
-[![Creative Commons License](http://img.shields.io/badge/license-CC%20BY-red.svg)](./LICENSE.txt)
+[![Creative Commons License](http://img.shields.io/badge/license-CC%20BY-red.svg?style=flat)](./LICENSE.txt)
 
 ![nonlocal spin valve](https://raw.github.com/razor-x/tikz-nonlocal_spin_valve/master/preview.png)
 
